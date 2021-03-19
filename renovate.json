@@ -3,5 +3,15 @@
   "extends": [
     "config:base"
   ],
-  "labels": ["renovate-bot"]
+  "labels": ["renovate-bot"],
+  "constraints": {
+    "npm": "^7.0.0",
+    "node": "^15.0.0"
+  },
+  "force": {
+    "constraints": {
+      "npm": ">= 7.0.0",
+      "node": ">= 15.0.0"
+    }
+  }
 }
